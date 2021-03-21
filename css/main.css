@@ -15,7 +15,7 @@ h1 {
   font-family: 'PT Sans', sans-serif;
   font-size: 1.5rem;
   color: #3f1622;
-  font-style: bold;
+  font-weight: : bold;
 }
 
 header ol {
@@ -29,6 +29,11 @@ header ol li a {
   text-decoration: none;
 }
 
+header ol li a:hover {
+  color: #3f1622;
+  border-bottom: 1px solid #3f1622;
+}
+
 img {
   width: 100%;
 }
@@ -36,10 +41,10 @@ img {
 figcaption {
   text-align: center;
   font-family: 'PT Serif', serif;
-  font-style: bold;
+  font-style: italic;
 }
 .firstline {
-  font-family: 'PT Sans', sans-serif;
-  font-style: bold;
+  font-family: 'PT Serif', serif;
+  font-weight: bold;
   font-size: 1.125rem;
 }
