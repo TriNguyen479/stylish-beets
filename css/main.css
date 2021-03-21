@@ -10,3 +10,36 @@ html {
 
 /* font-family: 'PT Sans', sans-serif;
 font-family: 'PT Serif', serif; */
+
+h1 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.5rem;
+  color: #3f1622;
+  font-style: bold;
+}
+
+header ol {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.125rem;
+  list-style-type: none;
+}
+
+header ol li a {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+figcaption {
+  text-align: center;
+  font-family: 'PT Serif', serif;
+  font-style: bold;
+}
+.firstline {
+  font-family: 'PT Sans', sans-serif;
+  font-style: bold;
+  font-size: 1.125rem;
+}
